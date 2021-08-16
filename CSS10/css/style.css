@@ -23,7 +23,6 @@
 }
 
 *, *::before, ::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -89,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .original {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 60px;
+  line-height: 10px;
 }
 
 .original p {
@@ -132,4 +131,8 @@ h1, h2, h3, h4, h5, h6 {
 .PFDinMedium p {
   padding: 10px 10px 10px 10px;
   margin: 0px 0px 5px 0px;
+}
+
+.original p {
+  font-size: 10px;
 }
